@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <ul class="header__list">
+                    <li class="header__item"><a href="/html/settings.html" class="header__link_img">
+                        <img src="../icons/chalkboard_user.svg" alt="chalkboard_user">
+                    </a></li>
+                    <li class="header__item"><a href="/index.html" class="header__link">Home</a></li>
+                    <li class="header__item"><a href="/html/homework.html" class="header__link">Homework</a></li>
+                    <li class="header__item"><a href="/html/settings.html" class="header__link header__link_active">Settings</a></li>
+                    <li class="header__item"><a href="/html/settings.html" class="header__link_img">
+                        <img src="../icons/girl.svg" alt="girl">
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="settings">
+        <div class="container">
+            <h1 class="settings__title">Settings</h1>
+            <div class="settings__wrapper">
+                <div class="settings__block settings__block1">
+                    <div class="settings__bg settings__bg_left">Avatar</div>
+                    <div class="settings__img">
+                        <img src="/icons/girl.svg" alt="girl">
+                    </div>
+                    <button class="settings__btn">Choose photo</button>
+                </div>
+
+                <div class="settings__block settings__block_margin settings__block_adaptiv">
+                    <div class="settings__bg">Student's info</div>
+                    <form action="#" class="settings__form">
+                        <input type="text" placeholder="First name" class="settings__form_input">
+                        <input type="text" placeholder="Last name" class="settings__form_input">
+                        <input type="email" placeholder="Email" class="settings__form_input">
+                        <input type="text" placeholder="Phone number" class="settings__form_input">
+                        <input type="text" placeholder="Address" class="settings__form_input">
+                        <input type="text" placeholder="FB Link" class="settings__form_input">
+                        <input type="button" value="Save changes" class="settings__btn">
+                    </form>
+                </div>
+
+                <div class="settings__block settings__block_adaptiv">
+                    <div class="settings__bg settings__bg_right">Change password</div>
+                    <form action="#" class="settings__form">
+                        <input type="password" placeholder="Old password" class="settings__form_input">
+                        <input type="password" placeholder="New password" class="settings__form_input">
+                        <input type="password" placeholder="Repeat password" class="settings__form_input">
+                        <input type="button" value="Change password" class="settings__btn">
+                    </form>
+                </div>
+            </div>
+            <div class="settings__bg_position"></div>
+        </div>
+    </section>
+</body>
+</html>
